@@ -387,19 +387,19 @@ class Map extends Component {
 // assemble the HTML for the markers' popups (Leaflet's bindPopup method doesn't accept React JSX)
         var popupContent =
           `<h4>${feature.properties.name_en}</h4>
-          <strong>Gender: </strong>${feature.properties.gender}
+          <strong>性別: </strong>${feature.properties.gender}
           </br>
-          <strong>Nationality: </strong>${feature.properties.nationality}
+          <strong>國籍： </strong>${feature.properties.nationality}
           </br>
-          <strong>Start Year: </strong>${feature.properties.start_year}
+          <strong>開始年份： </strong>${feature.properties.start_year}
           </br>
-          <strong>End Year: </strong>${feature.properties.end_year}
+          <strong>結束年份： </strong>${feature.properties.end_year}
           </br>
-          <strong>Affiliation:</strong>${feature.properties.corp_name_en}
+          <strong>聯繫：</strong>${feature.properties.corp_name_en}
           </br>
-          <strong>Location: </strong>${feature.properties.location_name_en}
+          <strong>地點： </strong>${feature.properties.location_name_en}
           </br>
-          <button class="popupbutton" onclick="showPopup('${feature.properties.name_en}')">Learn More</button>
+          <button class="popupbutton" onclick="showPopup('${feature.properties.name_en}')">學到更多</button>
           `;
 
         // add our popups

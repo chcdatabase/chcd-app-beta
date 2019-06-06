@@ -360,15 +360,15 @@ addGeoJSONLayer(geojson) {
         var popupContent =
           `<h4>${feature.properties.inst_name_en}</h4>
           </br>
-          <strong>Type: </strong>${feature.properties.inst_type}
+          <strong>类型： </strong>${feature.properties.inst_type}
           </br>
-          <strong>Start Year: </strong>${feature.properties.start_year}
+          <strong>開始年份： </strong>${feature.properties.start_year}
           </br>
-          <strong>Affiliation:</strong>${feature.properties.corp_name_en}
+          <strong>聯繫：</strong>${feature.properties.corp_name_en}
           </br>
-          <strong>Location: </strong>${feature.properties.location_name_en}
+          <strong>地點： </strong>${feature.properties.location_name_en}
           </br>
-          <button class="popupbutton" onclick="showPopup('${feature.properties.inst_name_en}')">Learn More</button>
+          <button class="popupbutton" onclick="showPopup('${feature.properties.inst_name_en}')">學到更多</button>
           `;
 
         // add our popups
@@ -449,8 +449,8 @@ addGeoJSONLayer(geojson) {
 
 
         <div className="filterColumn">
-          <h6>Explore</h6>
-          <h5><NavLink exact={true} activeClassName='active' to="/">People</NavLink> | <NavLink exact={true} activeClassName='active' to="/inst-map">Institutions</NavLink></h5>
+          <h6>探索</h6>
+          <h5><NavLink exact={true} activeClassName='active' to="/tw">人們</NavLink> | <NavLink exact={true} activeClassName='active' to="/tw/inst-map">機構</NavLink></h5>
           <div className="slider">
             {<InputRange
               maxValue={1950}
