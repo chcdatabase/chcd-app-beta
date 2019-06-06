@@ -18,7 +18,7 @@ import Data from '../../Assets/json/geo-person.json';
 // import local components Filter and ForkMe
 import Filter from '../Filter/FilterZH';
 import InputRange from 'react-input-range';
-import Individual from '../Individual/Individual';
+import Individual from '../Individual/IndividualZH';
 
 // STORES THE MAP PROPERTIES AS AN OBJECT
 

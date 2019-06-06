@@ -15,9 +15,9 @@ import geojson from 'json!../../Assets/json/geo-inst.geojson';
 import Data from '../../Assets/json/geo-inst.json';
 
 // import local components Filter and ForkMe
-import Filter from '../Filter/InstFilter';
+import Filter from '../Filter/InstFilterZH';
 import InputRange from 'react-input-range';
-import Individual from '../Individual/Individual';
+import Individual from '../Individual/IndividualZH';
 
 // STORES THE MAP PROPERTIES AS AN OBJECT
 
