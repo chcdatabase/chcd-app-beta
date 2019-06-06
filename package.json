@@ -6,7 +6,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/clhenrick/React-Leaflet-demo"
+    "url": "git+http://cc-database.com/"
   },
   "keywords": [
     "react, leaflet"
@@ -14,9 +14,9 @@
   "author": "Chris Henrick",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/clhenrick/React-Leaflet-demo/issues"
+    "url": "http://cc-database.com/"
   },
-  "homepage": "http://clhenrick.github.io/React-Leaflet-demo",
+  "homepage": "http://cc-database.com/",
   "name": "react-leaflet-demo",
   "version": "0.0.1",
   "private": true,
