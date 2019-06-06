@@ -470,7 +470,7 @@ addGeoJSONLayer(geojson) {
                 locatfilter={this.locatFilterUpdate}
                 corpfilter={this.corpFilterUpdate}
                 />}
-            <button type="button" onClick={ this.resetFilterUpdate.bind(this) }>Reset</button>
+            <button type="button" onClick={ this.resetFilterUpdate.bind(this) }>重启</button>
 
             <div className="container">
               <label className="switch" for="checkbox">
